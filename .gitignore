@@ -1,1 +1,50 @@
+# Python
+## Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+## Distribution / packaging
+.Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+share/python-wheels/
+*.egg
+.tox/
+.nox/
+
+## Tests
+.pytest_cache/
+.coverage
+.mypy_cache/
+.dmypy.json
+htmlcov/
+.hypothesis/
+
+## Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+## OS
+.DS_Store
+.Trashes
+Thumbs.db
+
+## Miscellaneous
+*.log
+*.sqlite3
+*.db
 .env
+.flaskenv
